@@ -1,0 +1,7 @@
+/venv
+/src/__pycache__
+*.pyc
+__pycache__
+**/__pycache__/
+/src/config/mongodb-config.ini
+/src/config/redis-config.ini

@@ -1,0 +1,61 @@
+annotated-types==0.6.0
+anyio @ file:///home/conda/feedstock_root/build_artifacts/anyio_1693488585952/work
+async-timeout @ file:///home/conda/feedstock_root/build_artifacts/async-timeout_1691763562544/work
+attrs @ file:///home/conda/feedstock_root/build_artifacts/attrs_1683424013410/work
+beautifulsoup4 @ file:///home/conda/feedstock_root/build_artifacts/beautifulsoup4_1680888073205/work
+Brotli @ file:///Users/runner/miniforge3/conda-bld/brotli-split_1695989934239/work
+certifi==2023.7.22
+cffi @ file:///Users/runner/miniforge3/conda-bld/cffi_1696001825047/work
+charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1696431134479/work
+click==8.1.7
+colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1666700638685/work
+cryptography @ file:///Users/runner/miniforge3/conda-bld/cryptography-split_1695306198628/work
+dnspython @ file:///home/conda/feedstock_root/build_artifacts/dnspython_1691598144738/work
+exceptiongroup @ file:///home/conda/feedstock_root/build_artifacts/exceptiongroup_1692026125334/work
+h11 @ file:///home/conda/feedstock_root/build_artifacts/h11_1664132893548/work
+h2 @ file:///home/conda/feedstock_root/build_artifacts/h2_1634280454336/work
+hiredis==2.2.3
+hpack==4.0.0
+httpcore @ file:///home/conda/feedstock_root/build_artifacts/httpcore_1696600502506/work
+hyperframe @ file:///home/conda/feedstock_root/build_artifacts/hyperframe_1619110129307/work
+idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1663625384323/work
+importlib-metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1688754491823/work
+joblib @ file:///home/conda/feedstock_root/build_artifacts/joblib_1691577114857/work
+more-itertools==9.1.0
+numpy @ file:///Users/runner/miniforge3/conda-bld/numpy_1695291109726/work/dist/numpy-1.26.0-cp312-cp312-macosx_11_0_arm64.whl#sha256=4be7510429f46b1b0b36ab1668a75656df966f4078b973e3f800202fd4b8d628
+outcome @ file:///home/conda/feedstock_root/build_artifacts/outcome_1655217710638/work
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1696202382185/work
+pandas @ file:///Users/runner/miniforge3/conda-bld/pandas_1696030244012/work
+pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1636257122734/work
+pydantic==2.0.3
+pydantic_core==2.3.0
+pymongo @ file:///Users/runner/miniforge3/conda-bld/pymongo_1695550487066/work
+PySocks @ file:///home/conda/feedstock_root/build_artifacts/pysocks_1661604839144/work
+python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1626286286081/work
+python-dotenv @ file:///home/conda/feedstock_root/build_artifacts/python-dotenv-split_1693865766170/work
+python-ulid==1.1.0
+pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1693930252784/work
+redis==4.6.0
+redis-om==0.2.1
+requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1684774241324/work
+scikit-learn @ file:///Users/runner/miniforge3/conda-bld/scikit-learn_1696574883513/work
+scipy @ file:///Users/runner/miniforge3/conda-bld/scipy-split_1696467668757/work/dist/scipy-1.11.3-cp312-cp312-macosx_11_0_arm64.whl#sha256=e269642e00221b79b9cdc47729e76acd7c9a36bca5690704de00940c7fbf03db
+selenium @ file:///home/conda/feedstock_root/build_artifacts/selenium_1691692337825/work
+setuptools==68.2.2
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
+sniffio @ file:///home/conda/feedstock_root/build_artifacts/sniffio_1662051266223/work
+sortedcontainers @ file:///home/conda/feedstock_root/build_artifacts/sortedcontainers_1621217038088/work
+soupsieve @ file:///home/conda/feedstock_root/build_artifacts/soupsieve_1693929250441/work
+threadpoolctl @ file:///home/conda/feedstock_root/build_artifacts/threadpoolctl_1689261241048/work
+tqdm @ file:///home/conda/feedstock_root/build_artifacts/tqdm_1691671248568/work
+trio @ file:///Users/runner/miniforge3/conda-bld/trio_1696378370203/work
+trio-websocket @ file:///home/conda/feedstock_root/build_artifacts/trio-websocket_1695816857197/work/dist
+types-pyOpenSSL==23.2.0.2
+types-redis==4.6.0.7
+typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1695040754690/work
+tzdata @ file:///home/conda/feedstock_root/build_artifacts/python-tzdata_1680081134351/work
+urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1696434355823/work
+webdriver-manager @ file:///home/conda/feedstock_root/build_artifacts/webdriver-manager_1695656871347/work
+wheel==0.41.2
+wsproto @ file:///home/conda/feedstock_root/build_artifacts/wsproto_1661356345548/work
+zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1695255097490/work
