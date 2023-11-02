@@ -4,8 +4,6 @@ import configparser
 import redis
 from pymongo import MongoClient
 from datetime import datetime
-import sys
-sys.path.append('/Users/gimsangsu/Desktop/backend/crawlingServer')
 from src.etfPrice.getEtfPrice import get_etf_price
 from src.etfPrice.updateEtfPrice import update_etf_price
 from src.fearAndGreed.getBondData import get_bond_data
@@ -22,7 +20,7 @@ from src.etfEvaluate.updateEtfEvaluate import update_etf_evaluate
 
 config = configparser.ConfigParser()
 
-config.read("/Users/gimsangsu/Desktop/backend/crawlingServer/src/config/mongodb-config.ini")
+config.read("src/config/mongodb-config.ini")
 
 host = config['mongo']['host']
 port = int(config['mongo']['port'])
@@ -30,14 +28,14 @@ port = int(config['mongo']['port'])
 client = MongoClient(host, port)
 db = client['snowball_data_engineer']
 
-config.read("/Users/gimsangsu/Desktop/backend/crawlingServer/src/config/redis-config.ini")
+config.read("src/config/redis-config.ini")
 
 redis_host = config['redis']['host']
 redis_port = int(config['redis']['port'])
 
 redis_client = redis.Redis(host=redis_host, port=redis_port, db=0)
 
-temp_path = "/Users/gimsangsu/Desktop/backend/crawlingServer/temp"
+temp_path = "temp"
     
 if __name__ == "__main__":
     while True:
