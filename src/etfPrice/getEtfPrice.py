@@ -41,7 +41,7 @@ def get_etf_price(db, temp_path):
         
     for product_date in date_list:
         chromeOptions = Options()
-        chromeOptions.add_argument("--headless")
+        # chromeOptions.add_argument("--headless")
         prefs = {"download.default_directory" : temp_path}
         chromeOptions.add_experimental_option("prefs",prefs)
 

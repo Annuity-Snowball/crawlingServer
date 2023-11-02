@@ -12,7 +12,8 @@ def update_kospi_per_data(db, temp_path):
     print(last_date)
     print()
     file_list = os.listdir(temp_path)
-    df_temp = pd.read_csv(temp_path+"/"+file_list[1], encoding='cp949')
+    file_list.sort()
+    df_temp = pd.read_csv(temp_path+"/"+file_list[0], encoding='cp949')
     print(df_temp.info())
     print(df_temp.head())
     
@@ -32,4 +33,4 @@ def update_kospi_per_data(db, temp_path):
         upload_documents = result.to_dict("records")
         result = collection.insert_many(upload_documents)
     
-    os.remove(temp_path+"/"+file_list[1])
+    os.remove(temp_path+"/"+file_list[0])

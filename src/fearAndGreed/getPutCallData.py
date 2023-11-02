@@ -15,7 +15,7 @@ days_ago_3  = days_ago_3.strftime("%Y%m%d")
 
 def get_put_call_data(temp_path):
     chromeOptions = Options()
-    chromeOptions.add_argument("--headless")
+    # chromeOptions.add_argument("--headless")
     prefs = {"download.default_directory" : temp_path}
     chromeOptions.add_experimental_option("prefs",prefs)
 

@@ -7,7 +7,7 @@ def update_etf_price(db, temp_path):
     file_list = os.listdir(temp_path)
     file_list.sort()
 
-    for file_name in file_list[1:]:
+    for file_name in file_list[0:]:
         date_str = file_name.split('.')[0].split('_')[1]
 
         df = pd.read_csv(temp_path+'/'+file_name,encoding='cp949')
@@ -23,5 +23,5 @@ def update_etf_price(db, temp_path):
             upload_documents = df.to_dict("records")
 
             result = collection.insert_many(upload_documents)
-    for file_name in file_list[1:]:
+    for file_name in file_list[0:]:
         os.remove(temp_path+"/"+file_name)

@@ -10,7 +10,7 @@ def update_bond_data(db, temp_path):
     last_date = df_origin.iloc[-1]['Date'] 
 
     file_list = os.listdir(temp_path)
-    df_temp =pd.read_csv(temp_path+"/"+file_list[1], encoding='cp949')
+    df_temp =pd.read_csv(temp_path+"/"+file_list[0], encoding='cp949')
 
     df_temp['Date'] = pd.to_datetime(df_temp['일자'], format='%Y/%m/%d')
     df_temp = df_temp.sort_values(by=['Date'])
@@ -31,4 +31,4 @@ def update_bond_data(db, temp_path):
         upload_documents = result.to_dict("records")
         result = collection.insert_many(upload_documents)
     
-    os.remove(temp_path+"/"+file_list[1])
+    os.remove(temp_path+"/"+file_list[0])
